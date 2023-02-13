@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-       dockerImage = docker.build("airist/webpage:latest")
+       dockerImage = docker.build("wapol4/webpage:latest")
     }
     
     stage('Push image') {
